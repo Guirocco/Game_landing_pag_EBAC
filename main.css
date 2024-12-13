@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DCD0C0;
+}
+
+header h1 {
+    font-size: 44px
+}
+
+header h1,
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Bangers', cursive;
+    font-weight: normal;
+}
+
+body,
+input,
+textarea {
+    font-family: 'Noto Sans Mono', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #FC4A1A;
+    color: #f7b733;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #f7b733;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: #540fd4;
+}
+
+section p {
+    margin-bottom: 8px;
+    color: #e44317;
+}
+
+.Gta-VI {
+    margin-right: 32px;
+    width: 680px;
+    height: 520px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+textarea,
+button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    color: #540fd4;
+}
+
+form button {
+    background-color: #f7b733;
+    color: #FC4A1A;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0b0ff0;
+}
+
+input:focus, textarea:focus {
+    outline-color: #3a049e;
+}
+
+footer {
+    background-color: #FC4A1A;
+    color: #f7b733;
+    padding: 16px 0;
+}
